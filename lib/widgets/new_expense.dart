@@ -112,7 +112,7 @@ class _NewExpense extends State<NewExpense> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      const Text(_selectedDate == null
+                      Text(_selectedDate == null
                           ? "No date selected"
                           : formatter.format(_selectedDate!)),
                       IconButton(
